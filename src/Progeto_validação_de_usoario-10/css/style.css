@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Caixa-De-Validasao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.input{
+    margin: 10px;
+    height: 50px;
+    width: 30%;
+    font-size: large;
+}
+.BTN{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.msg {
+    font-size: larger;
+}

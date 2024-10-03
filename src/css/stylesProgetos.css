@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.video1{
+    background-image: url("../img/Capturar.PNG");
+}
+
+.Valor-input{
+    background-image: url("../img/Capturar1.PNG");
+}
+
+.Check_input{
+    background-image: url("../img/CapturarCheckEu.PNG");
+}
+
+.Seletor-checkboxs{
+    background-image: url("../img/Capturar3.PNG");
+}
+
+.Bloqueador_De_Caracteres{
+    background-image: url("../img/Capturar4.PNG");
+}
+
+.codigos_das_teclas{
+    background-image: url("../img/aperteteclas.PNG");
+}
+
+.keydown_E_keyup{
+    background-image: url("../img/Apertou\ o\ Enter.PNG");
+}
+
+.Tabela{
+    background-image: url("../img/tabela.PNG");
+}
+
+.Semafaro{
+    background-image: url("../img/Semafafor.PNG");
+}
+
+.validação_de_usoario{
+    background-image: url("../img/Cadastro.PNG");
+}
+
+.Seletor-de-personajes{
+    background-image: url("../img/seletor-de-personagem.PNG");
+}
+
+.Comtagem_regreciva{
+    background-image: url("../img/Contagem-Regresiva.PNG");
+}
+
+.veja_o_codigo_das_palavras{
+    background-image: url("../img/filtro-de-letres.PNG");
+}
+
+.filtrar_letras_e_caracteres{
+    background-image: url("../img/Filtro-de-letras-e-caractres.PNG");
+}
+
+.video1,
+.Valor-input,
+.Check_input,
+.Seletor-checkboxs,
+.Bloqueador_De_Caracteres,
+.codigos_das_teclas,
+.keydown_E_keyup,
+.Tabela,
+.Semafaro,
+.validação_de_usoario,
+.Seletor-de-personajes,
+.Comtagem_regreciva,
+.veja_o_codigo_das_palavras,
+.filtrar_letras_e_caracteres{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-position: center;
+    background-size: cover;
+}
+
+.div-btn{
+    font-size: 20px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.desabilitado{
+    display: none;
+}
+
+.blocos{
+    height: 301px;
+    width: 301px;
+    margin: 9px;
+    border: solid 8px #3d3a3a;
+    border-style: groove;
+}

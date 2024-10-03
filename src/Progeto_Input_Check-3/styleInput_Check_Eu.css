@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    height: auto;
+    width: auto;
+}
+.formInputText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 92vh;
+    margin: 20px;
+}
+input:checked + .caixaCheck{
+    color: #fff;
+}
+input:checked + .caixaCheck p{
+    color: red;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.caixaCheck{
+    background-color:#666;
+    border: solid 4px #363434;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    width: 50%;
+}
+.caixa{
+    display: none;
+}
+label{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    display: none;
+}
+.titulo::before{
+    content: " ";
+    background: #000;
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    bottom: 3px;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    font-size: 50px;
+}
+.texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 93px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 25px;
+}

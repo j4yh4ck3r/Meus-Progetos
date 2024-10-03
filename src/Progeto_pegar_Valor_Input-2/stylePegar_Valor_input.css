@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.formInput{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenier{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+    background-color: aqua;
+}
+.titulo{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline solid 3px;
+    margin: 20px 0px 50px 0px;
+}
+.Input{
+    height: 30px;
+    width: 40%;
+    margin: 20px 0px 10px 0px;
+}
+.btnInput{
+    height: 50px;
+    width: 40%;
+    margin: 20px 0px 10px 0px;
+    background: linear-gradient(217deg, rgb(2, 66, 66), rgb(9, 204, 204) 70.71%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btnInput:hover{
+    transform: scale(0.5s);
+    background: linear-gradient(217deg, rgb(9, 204, 204), rgb(2, 66, 66) 70.71%);
+}
+.branco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

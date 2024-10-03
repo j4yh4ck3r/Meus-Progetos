@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.semafaro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.semafaro1{
+    background-color: #000;
+}
+.red{
+    background-color: none;
+}
+.yellow{
+    background-color: none;
+}
+.green{
+    background-color: none;
+}
+.red,
+.yellow,
+.green{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: solid 3px #f5f2f2;
+    border-radius: 500px;
+}

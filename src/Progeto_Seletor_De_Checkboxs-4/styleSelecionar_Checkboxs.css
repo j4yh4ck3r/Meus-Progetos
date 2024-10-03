@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.SeletorCheckboxs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 50%;
+    background-color: #505c4c;
+}
+
+.checkbox{
+    height: 20px;
+    width: 20px;
+}
+
+.div-check{
+    margin: 30px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn #send{
+    height: 60px;
+    width: 90px;
+    font-size: 30px;
+}

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.bloqueadorDeCaracteresDoInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(53, 51, 51);
+    height: 50vh;
+    width: 50vw;
+}
+
+.bloqueadorDeCaracteresDoInput input{
+    height: 50px;
+    width: 200px;
+}

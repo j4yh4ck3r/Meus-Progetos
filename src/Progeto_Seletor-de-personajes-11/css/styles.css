@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jacques Francois Shadow", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-image: url("../img/imgDeFundo.jpeg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#main-conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #413f3f;
+    height: 70vh;
+    width: 90vh;
+    border-radius: 3px;
+    opacity: 0.9;
+}
+
+#main-conteiner h1 {
+    text-align: center;
+    margin: 20px;
+    color: #000;
+    text-decoration: underline;
+}
+
+#input,
+#btn {
+    height: 50px;
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+#btn {
+    font-size: larger;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: #665c5c;
+    border: none;
+    transition: 0.9s;
+    border-bottom-style: ridge;
+    border-right-style: ridge;
+}
+
+#input:hover {
+    border: none;
+    transition: 0.9s;
+    border-bottom-style: ridge;
+    border-right-style: ridge;
+}
+
+#div-Input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input {
+    text-align: center;
+    font-size: larger;
+    width: 40px;
+}
+
+#div-conteiner2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: inherit;
+    width: 0px;
+    background-color: #413f3f;
+    color: #131212;
+    position: absolute;
+    transition: linear 1s;
+    border-radius: 3px;
+}
+
+#div-img {
+    display: flex;
+    height: 100%;
+    width: 100vh;
+}
+
+#img {
+    height: 100%;
+    width: 100%;
+}
+
+#div-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100vh;
+}
+
+p {
+    color: #f1c7c7;
+    font-size: 30px;
+}
+
+#ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70%;
+    width: 100%;
+}
+
+#ul li {
+    margin: 25px;
+    text-decoration: underline;
+    
+}

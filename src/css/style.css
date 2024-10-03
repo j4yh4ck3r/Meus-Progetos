@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    background-color: #000;
+}
+
+#cabeca{
+    height: 95px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #575656;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    color: #fff;
+}
+
+/* div de navegação */
+.paiMenu{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.navegacao{
+    background-color: rgba(0,0,0, 0.9);
+    border: none;
+    height: 100vh;
+    position: absolute;
+}
+
+.caixa{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    color: rgb(252, 251, 251);
+    font-size: 30px;
+    height: 0px;
+    width: 0px;
+    overflow:hidden;
+}
+
+.caixa .imgs .menuimg{
+    background-color: white;
+    position: absolute;
+}
+.caixa .imgs .menuimg2{
+    background-color: white;
+    position: absolute;
+    visibility: collapse;
+}
+.caixa .imgs .menuimg,
+.menuimg2{
+    border: 2px solid rgba(0,0,0, 0.9);
+    border-radius: 10px;
+    cursor: pointer;
+    height: 37px;
+    width: 37px;
+    top: 30px;
+    left: 11px;
+}
+.caixa .imgs .menuimg:hover{
+    background-color: rgb(105, 107, 107);
+}
+.caixa .imgs .menuimg2:hover{
+    background-color: rgb(105, 107, 107);
+}
+.caixa .imgs{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+
+.caixa .listas .items,
+.home,
+.sobre,
+.link{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.caixa .listas .items:hover,
+.home:hover,
+.sobre:hover,
+.link:hover{
+    cursor: pointer;
+    background-color: rgb(252, 251, 251);
+    width: 164px;
+    color: rgb(8, 8, 8);
+}
+
+.caixa .listas{
+    margin-top: 60px;
+    padding-top: 10px;
+    margin-left: 6px;
+}
+
+/* principal */
+
+#conteiner{
+    margin-bottom: 40px;
+}
+
+.caixa-principal{
+    border: solid 5px #464242;
+    height: 495px;
+    margin: 0px 30px 0px 30px;
+    overflow: hidden scroll;
+    scrollbar-width: none;
+}
+
+.caixa-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.PeDaPagina{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    border-top: 1px solid #575656;
+}
+
+.PeDaPagina .links-de-contatos{
+    display: flex;
+}
+
+.contatos{
+    margin: 30px;
+}
+
+.contatos .linkFooter{
+    text-decoration-line: none;
+    color: #fff;
+}
+
+.contatos .linkFooter:hover{
+    color: #0820d6;
+}
