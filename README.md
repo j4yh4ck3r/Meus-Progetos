@@ -10,12 +10,12 @@ Apesar de ter deixado de lado por um tempo, ainda penso em expandir este reposit
   - Mostrar minha evolução como desenvolvedor.
 
 ## Estrutura do projeto
-
-Meus-Progetos/ 
-├── projeto1/ 
-├── projeto2/ 
-└── ...
-
+````
+  Meus-Progetos/ 
+  ├── projeto1/ 
+  ├── projeto2/ 
+  └── ...
+````
 
 ## Como rodar
 1. Clone este repositório:
